@@ -18,4 +18,5 @@ Determines if the password must contain digits;
 Determines if the password must contain symbols.
 
 
-<img width="564" height="567" alt="2026-04-15-085718_hyprshot" src="https://github.com/user-attachments/assets/6bbe50fe-b8b2-4d01-8de2-c514a0a8932e" />
+<img width="475" height="570" alt="2026-04-15-085917_hyprshot" src="https://github.com/user-attachments/assets/a8e464d1-d417-41ba-8482-6a30a287fbae" />
+
