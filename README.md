@@ -1,3 +1,4 @@
+
 # Password Generator
 A simple website to generate passwords according to users especification. The site is made using basic html and css for the interface, and javaScript to generate the password randomly. The password is generate with random selection in arrays. There's 4 diferent arrays os characters so the users can choose if they want a passowrd with Upper letters, digigts and symbols.
 
@@ -15,3 +16,7 @@ Determines if the password must contain upper letters;
 Determines if the password must contain digits;
 ### Symbols
 Determines if the password must contain symbols.
+
+
+<img width="475" height="570" alt="2026-04-15-085917_hyprshot" src="https://github.com/user-attachments/assets/a8e464d1-d417-41ba-8482-6a30a287fbae" />
+
