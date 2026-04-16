@@ -5,6 +5,8 @@ const symbols = [...'!@#$%&*-_=+[]{}.<>/?'];
 
 const generate = document.getElementById("generate");
 const senha = document.getElementById("senha");
+const del = document.getElementById("close");
+const popup = document.getElementById("pop-up");
 
 
 function generator(length, has_upper, has_nums, has_symbols){
@@ -40,8 +42,17 @@ async function copyText(text) {
   }
 }
 
-senha.onclick = function e (){copyText(senha.textContent)};
+senha.onclick = function e (){
+  copyText(senha.textContent);
+  popup.classList.add("visible");
+  popup.classList.remove("invisible");
 
+}
+''
+del.onclick = function f (){
+  popup.classList.remove("visible");
+  popup.classList.add("invisible");
+}
 
 generate.onclick = function e(){
 

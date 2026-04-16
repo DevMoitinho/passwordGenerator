@@ -27,6 +27,24 @@ body{
     display: flex;
 }
 
+.visible{
+    visibility:visible;
+    animation-duration: 0.3s;
+    animation-name: anim-in;
+}
+.invisible{
+    visibility: hidden;
+}
+
+@keyframes anim-in {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
 .close{
     color: #627e56;
     cursor: pointer;
