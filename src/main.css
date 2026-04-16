@@ -16,6 +16,22 @@ body{
     justify-items: center;
 }
 
+.pop-up{
+    color: #11111b;
+    background-color: #a6e3a1;
+    padding: 0.5em;
+
+    border-radius: 30px;
+    gap: 0.5em;
+
+    display: flex;
+}
+
+.close{
+    color: #627e56;
+    cursor: pointer;
+}
+
 .panel{
     width: 30%;
 
