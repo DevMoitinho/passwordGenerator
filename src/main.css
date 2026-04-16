@@ -65,12 +65,12 @@ input{
     align-items: center;
 }
 
-.copy{
-    height: 30px;
-    background-color: transparent;
-    border: transparent;
-
+h3{
     cursor: pointer;
+}
+
+h3:hover{
+    color: #74c7ec;
 }
 
 @media (max-width: 600px) {

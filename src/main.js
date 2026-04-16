@@ -31,6 +31,18 @@ function generator(length, has_upper, has_nums, has_symbols){
     return senha;
 }
 
+async function copyText(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    console.log('Text copied to clipboard');
+  } catch (err) {
+    console.error('Failed to copy: ', err);
+  }
+}
+
+senha.onclick = function e (){copyText(senha.textContent)};
+
+
 generate.onclick = function e(){
 
     
@@ -42,4 +54,6 @@ generate.onclick = function e(){
     aux = generator(length.value, upper.checked, nums.checked, symb.checked);
 
     senha.textContent = aux;
+
+    
 }
